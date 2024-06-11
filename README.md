@@ -6,3 +6,4 @@
 |4|[射频相关计算器](https://www.pasternack.cn/t-calculator-fspl.aspx)
 |5|33630|L2520|
 |6|62813|L0806|
+|7|8875|7.5*7*5.4|
