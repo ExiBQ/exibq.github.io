@@ -7,3 +7,4 @@
 |5|33630|L2520|
 |6|62813|L0806|
 |7|8875|7.5*7*5.4|
+|8|30P/40P|http://www.jdllh.com/index.php/product/productdetail/id/554.html|
