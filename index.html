@@ -1,0 +1,164 @@
+
+                        <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+							<style>
+								body {
+									background-color: white; /* Ensure the iframe has a white background */
+								}
+
+								
+							</style>
+                        </head>
+                        <body>
+                            <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微博热搜榜</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 400px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        h1::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #ff6f61;
+            margin: 10px auto 0;
+            border-radius: 5px;
+        }
+
+        .hot-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .hot-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 10px;
+            background: rgba(240, 240, 240, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hot-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .rank {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff6f61;
+            margin-right: 15px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: #333;
+            flex-grow: 1;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>微博热搜榜</h1>
+    <ul class="hot-list" id="hotList">
+        <!-- 热搜内容将通过JavaScript动态生成 -->
+    </ul>
+</div>
+
+<script>
+    // 模拟的微博热搜数据
+    const hotSearchData = [
+        { rank: 1, title: "国庆旅游推荐" },
+        { rank: 2, title: "明星新剧开播" },
+        { rank: 3, title: "科技新品发布" },
+        { rank: 4, title: "热门电影上映" },
+        { rank: 5, title: "体育赛事直播" },
+        { rank: 6, title: "美食探店分享" },
+        { rank: 7, title: "时尚潮流趋势" },
+        { rank: 8, title: "健康生活指南" },
+        { rank: 9, title: "教育政策解读" },
+        { rank: 10, title: "环保公益活动" }
+    ];
+
+    // 动态生成热搜列表
+    const hotList = document.getElementById('hotList');
+    hotSearchData.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.className = 'hot-item';
+
+        const rankSpan = document.createElement('span');
+        rankSpan.className = 'rank';
+        rankSpan.textContent = item.rank;
+
+        const titleSpan = document.createElement('span');
+        titleSpan.className = 'title';
+        titleSpan.textContent = item.title;
+
+        listItem.appendChild(rankSpan);
+        listItem.appendChild(titleSpan);
+
+        hotList.appendChild(listItem);
+    });
+</script>
+
+</body>
+</html>
+
+
+
+							<script>
+                            	
+							</script>
+                        </body>
+                        </html>
+                    
