@@ -9,3 +9,4 @@
 |7|8875|7.5*7*5.4|
 |8|30P/40P|http://www.jdllh.com/index.php/product/productdetail/id/554.html|
 |9|MS2130和EDID相关|https://www.cnblogs.com/leewh1993/articles/18339248|
+|10|Buck SW振铃消除|https://www.eet-china.com/mp/a346485.html|
