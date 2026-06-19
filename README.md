@@ -10,6 +10,7 @@
 |8|30P/40P|http://www.jdllh.com/index.php/product/productdetail/id/554.html|
 |9|MS2130和EDID相关|https://www.cnblogs.com/leewh1993/articles/18339248|
 |10|Buck SW振铃消除|https://www.eet-china.com/mp/a346485.html|
+|11|看图软件|https://pic.ghxi.com|
 |#|Website||
 |1|[Clash.Verge_x64-setup.exe](https://github.com/ExiBQ/exibq.github.io/blob/master/Tools/Clash.Verge_x64-setup.exe)
 |2|[Everything-1.4.1.1026.x64-Setup.exe](https://github.com/ExiBQ/exibq.github.io/blob/master/Tools/Everything-1.4.1.1026.x64-Setup.exe)
